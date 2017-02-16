@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Dustin's rebuild</title>
+    <!--FontAwesome CDN-->
+    <script src="https://use.fontawesome.com/3338c7a7f8.js"></script>
     <!--Bootstrap CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!--My css-->
@@ -99,15 +101,15 @@
                     <img src="../images/tiles/tile-1.jpg" alt="" class="tiles">
                 </div>
                 <div class="col-xs-12 col-md-4 tiles">
-                    <img src="../images/tiles/tile-2.jpg" alt=""class="tiles">
+                    <img src="../images/tiles/tile-2.jpg" alt="" class="tiles">
                 </div>
                 <div class="col-xs-12 col-md-4 tiles">
-                    <img src="../images/tiles/tile-3.jpg" alt=""class="tiles">
+                    <img src="../images/tiles/tile-3.jpg" alt="" class="tiles">
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-12 col-md-4 tiles">
-                    <img src="../images/tiles/tile-4.jpg" alt=""class="tiles">
+                    <img src="../images/tiles/tile-4.jpg" alt="" class="tiles">
                 </div>
                 <div class="col-xs-12 col-md-4 tiles">
                     <img src="../images/tiles/tile-5.jpg" alt="" class="tiles">
@@ -119,13 +121,82 @@
         </div>
 
         <!--Spaced grid-->
-        <div id="spacedGrid" class="container">
-            <h1>space grid</h1>
+        <div id="spacedGrid" class="container-fluid spacedGrid">
+            <!--Need arrow icon for read more....-->
+            <!--Need to fix font and size-->
+            <!--Add background color-->
+            <!--White font-->
+            <!--Nested columns with container-fluid-->
+            <div class="row">
+                <div class="col-md-6 hidden-md">
+                    <div class="row">
+                        <div class="col-md-9 col-md-offset-3">
+                            <img src="../images/alternating/alternating-1.jpg" alt="" class="tiles">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <h3>LOREM IPSUM</h3>
+                            <p>Lorem ipsum dolor sit amet, te nec congue scaevola reprimique. In nec mollis disputando, sit
+                                te veritus fabellas. Ei essent aeterno cum, ex mea integre tractatos, vel ad invidunt adipisci
+                                tacimates. Ut viris dolore mei, commune rationibus ei qui.</p>
+                            <a href="">Read more here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-9 col-md-offset-3">
+                            <h3>QUIS AUTEM</h3>
+                            <p>Lorem ipsum dolor sit amet, te nec congue scaevola reprimique. In nec mollis disputando, sit
+                                te veritus fabellas. Ei essent aeterno cum, ex mea integre tractatos, vel ad invidunt adipisci
+                                tacimates. Ut viris dolore mei, commune rationibus ei qui.</p>
+                            <a href="">Read more here</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <img src="../images/alternating/alternating-2.jpg" alt="" class="tiles">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--This would be another way of doing this section if I wanted the container to NOT be fluid...-->
+            <!--<div class="row ">
+                <div class="col-xs-12 col-md-6">
+                    <img src="../images/alternating/alternating-1.jpg" alt="" class="tiles">
+                </div>
+                <div class="col-xs-12 col-md-6"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-6"></div>
+                <div class="col-xs-12 col-md-6">
+                    <img src="../images/alternating/alternating-2.jpg" alt="" class="tiles">
+                </div>
+            </div>-->
+
+
         </div>
+
+
         <!--Footer-->
 
-        <div id="footer" class="container-fluid">
-            <h1>footer</h1>
+        <div id="footer" class="container">
+            <div class="row">
+                <div class="col-sm-12 flexbox">
+                    <div> <i class="fa fa-copyright" aria-hidden="true"></i> 2016 devNorthwest.</div>
+                    <div> <i class="fa fa-facebook" aria-hidden="true"></i> <i class="fa fa-twitter" aria-hidden="true"></i> <i class="fa fa-youtube-play" aria-hidden="true"></i> <i class="fa fa-instagram" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
