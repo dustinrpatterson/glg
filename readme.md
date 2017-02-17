@@ -40,6 +40,9 @@
 - Do we have links for what sites to direct the footer icons to?
 
 ##screenshots
+###Base
 ![Screenshot](/images/screenshots/website-comp.jpg)
+###Hover states
 ![Screenshot](/images/screenshots/website-hoverStates.jpg)
+###Redlines
 ![Screenshot](/images/screenshots/redlines.jpg)
