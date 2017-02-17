@@ -1,25 +1,126 @@
 body { 
     // Bootstrap recommended 70, but 50 was all that was needed
     // padding-top: 70px; 
-    padding-top: 50px; 
+    padding-top: 50px;
+    font-family: 'Arimo', sans-serif;
+    background-color: rgb(71,71,71)
 }
 
 .header{
-    background: gray;
+    background: white;
+    padding-top: 9px;
 }
 
-.tiles{
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: 0 auto;
-    padding-left: 0px;
-    padding-right: 0px;
+.tiles {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+  padding-left: 0px;
+  padding-right: 0px; 
+}
+.sub-tiles {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+  padding-left: 0px;
+  padding-right: 0px; 
+  position: relative;
+}
+
+.text{
+  position: absolute;
+  z-index: 1;
+  bottom: 40%;
+  left: 29%;
 }
 
 .flexbox{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
-    align-items:flex-start;
+    align-items: center;
+}
+
+.carousel-box{
+
+}
+
+// GLG font settings by number
+.glg-1{
+    font-size: 13px;
+    color: rgb(51,51,51)
+}
+
+.glg-2{
+    font-size: 13px;
+    color: rgb(129,129,129)
+}
+
+.glg-3{
+    font-size: 13px;
+    color: rgb(51,51,51)
+}
+.glg-4{
+    font-size: 24px;
+    color: rgb(0,0,0)
+}
+.glg-5{
+    font-size: 36px;
+    color: rgb(255,255,255)
+}
+.glg-6{
+    font-size: 18px;
+    color: rgb(255,255,255)   
+}
+.glg-7{
+    font-size: 14px;
+    color: rgb(255,255,255)
+}
+.glg-8{
+    font-size: 18px;
+    color: rgb(255,255,255)
+}
+.glg-9{
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(255,255,255)   
+}
+.glg-10{
+    font-size: 18px;
+    color: rgb(255,255,255)
+}
+.glg-11{
+    font-size: 18px;
+    color: rgb(113,113,113)
+}
+.glg-12{
+    font-size: 18px;
+    color: rgb(255,255,255)
+}
+.glg-13{
+    font-size: 12px;
+    color: rgb(71,71,71)
+}
+
+.spacedGrid{
+    background-color: rgb(71,71,71);
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.spacedTile{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer{
+    background-color: black;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+
+.darken{
+  opacity: .15;
 }
