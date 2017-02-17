@@ -1,19 +1,38 @@
 body {
   padding-top: 50px;
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   background-color: #474747; }
 
 .header {
   background: white;
   padding-top: 9px; }
 
+.header a:hover {
+  font-size: 13px;
+  color: #333333; }
+
 .tiles {
   max-width: 100%;
   max-height: 100%;
   display: block;
-  margin: 0 auto;
+  margin: auto;
   padding-left: 0px;
   padding-right: 0px; }
+
+.sub-tiles {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative; }
+
+.text {
+  position: absolute;
+  z-index: 1;
+  bottom: 40%;
+  left: 29%; }
 
 .flexbox {
   display: flex;
@@ -79,6 +98,10 @@ body {
   margin-top: 50px;
   margin-bottom: 50px; }
 
+.spacedGrid a:hover {
+  font-size: 18px;
+  color: #717171; }
+
 .spacedTile {
   margin-top: 10px;
   margin-bottom: 10px; }
@@ -87,3 +110,9 @@ body {
   background-color: black;
   padding-top: 12px;
   padding-bottom: 12px; }
+
+.footer i:hover {
+  color: #717171; }
+
+.darken {
+  opacity: .15; }

@@ -1,14 +1,21 @@
+$myFont: 'Arimo', sans-serif;
+
 body { 
     // Bootstrap recommended 70, but 50 was all that was needed
     // padding-top: 70px; 
     padding-top: 50px;
-    font-family: 'Arimo', sans-serif;
+    font-family: $myFont;
     background-color: rgb(71,71,71)
 }
 
 .header{
     background: white;
     padding-top: 9px;
+}
+
+.header a:hover{
+  font-size: 13px;
+  color: #333333; 
 }
 
 .tiles {
@@ -110,6 +117,11 @@ body {
     margin-bottom: 50px;
 }
 
+.spacedGrid a:hover{
+    font-size: 18px;
+    color: rgb(113,113,113)
+}
+
 .spacedTile{
   margin-top: 10px;
   margin-bottom: 10px;
@@ -119,6 +131,10 @@ body {
     background-color: black;
     padding-top:12px;
     padding-bottom:12px;
+}
+
+.footer i:hover{
+    color: rgb(113,113,113)
 }
 
 .darken{
