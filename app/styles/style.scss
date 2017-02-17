@@ -1,13 +1,24 @@
+// Added a couple variables for fun
+
 $myFont: 'Arimo', sans-serif;
+$mainColor: rgb(0,0,0);
 
 body { 
     // Bootstrap recommended 70, but 50 was all that was needed
     // padding-top: 70px; 
     padding-top: 50px;
     font-family: $myFont;
-    background-color: rgb(71,71,71)
+    background-color: $mainColor;
 }
 
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+
+// Header styling
 .header{
     background: white;
     padding-top: 9px;
@@ -18,6 +29,26 @@ body {
   color: #333333; 
 }
 
+// Carousel styling
+.carousel-box{
+  bottom: 40%;
+  background: rgba(0, 0, 0, .5);
+  z-index: 0;
+}
+
+.carousel-btn{
+  background-color: black;
+  border: black solid 1px;
+  border-radius: 0;
+}
+
+.carousel-btn:hover{
+  background-color: rgb(71,71,71);
+  border: rgb(71,71,71) solid 1px;
+  border-radius: 0;
+}
+
+// Tiles styling
 .tiles {
   max-width: 100%;
   max-height: 100%;
@@ -26,6 +57,7 @@ body {
   padding-left: 0px;
   padding-right: 0px; 
 }
+
 .sub-tiles {
   max-width: 100%;
   max-height: 100%;
@@ -36,6 +68,10 @@ body {
   position: relative;
 }
 
+.darken{
+  opacity: .15;
+}
+
 .text{
   position: absolute;
   z-index: 1;
@@ -43,18 +79,36 @@ body {
   left: 29%;
 }
 
-.flexbox{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    align-items: center;
+// spacedGrid styling
+.spacedGrid{
+    background-color: rgb(71,71,71);
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 
-.carousel-box{
-
+.spacedGrid a:hover{
+    font-size: 18px;
+    color: rgb(113,113,113)
 }
 
-// GLG font settings by number
+.spacedTile{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+// Footer styling
+
+.footer{
+    background-color: black;
+    padding-top:12px;
+    padding-bottom:12px;
+}
+
+.footer i:hover{
+    color: rgb(113,113,113)
+}
+
+// GLG font settings by number referenced in the redlines
 .glg-1{
     font-size: 13px;
     color: rgb(51,51,51)
@@ -111,32 +165,6 @@ body {
     color: rgb(71,71,71)
 }
 
-.spacedGrid{
-    background-color: rgb(71,71,71);
-    margin-top:50px;
-    margin-bottom: 50px;
-}
 
-.spacedGrid a:hover{
-    font-size: 18px;
-    color: rgb(113,113,113)
-}
 
-.spacedTile{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 
-.footer{
-    background-color: black;
-    padding-top:12px;
-    padding-bottom:12px;
-}
-
-.footer i:hover{
-    color: rgb(113,113,113)
-}
-
-.darken{
-  opacity: .15;
-}

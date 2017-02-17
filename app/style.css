@@ -116,3 +116,21 @@ body {
 
 .darken {
   opacity: .15; }
+
+.carousel-box{
+  bottom: 40%;
+  background: rgba(0, 0, 0, .5);
+  z-index: 0;
+}
+
+.carousel-btn{
+  background-color: rgb(0,0,0);
+  border: rgb(0,0,0) solid 1px;
+  border-radius: 0;
+}
+
+.carousel-btn:hover{
+  background-color: rgb(71,71,71);
+  border: rgb(71,71,71) solid 1px;
+  border-radius: 0;
+}
